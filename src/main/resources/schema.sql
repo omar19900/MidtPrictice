@@ -1,0 +1,12 @@
+DROP TABLE REGISTERS IF EXISTS;
+
+CREATE TABLE registers (
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(255),
+	email VARCHAR(255),
+	paswords VARCHAR (255),
+	fullName VARCHAR (255),
+	gender VARCHAR (255),
+	phone VARCHAR (255)
+	
+);
